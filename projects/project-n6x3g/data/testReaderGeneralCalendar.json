@@ -1,0 +1,84 @@
+{
+    "eventId": 1,
+    "currentYearIndex": 1,
+    "categories": [{
+        "notes": ["note"],
+        "name": "category",
+        "location": "",
+        "links": ["link"],
+        "id": 0,
+        "subcategories": [
+            1,
+            2
+        ]
+    }],
+    "title": "title",
+    "subcategories": [
+        {
+            "notes": ["note"],
+            "priorityLevel": 1,
+            "name": "first",
+            "parentCategory": 0,
+            "location": "",
+            "links": ["link"],
+            "id": 1,
+            "subcategories": [2],
+            "tags": ["tag"]
+        },
+        {
+            "notes": [],
+            "priorityLevel": 1,
+            "name": "second",
+            "parentCategory": null,
+            "location": "",
+            "links": [],
+            "id": 2,
+            "subcategories": [],
+            "tags": []
+        }
+    ],
+    "years": [
+        2024,
+        2025,
+        2026
+    ],
+    "categoryId": 3,
+    "events": [{
+        "name": "event",
+        "startTime": {
+            "hour": 12,
+            "minute": 0
+        },
+        "id": 0,
+        "endTime": {
+            "hour": 13,
+            "minute": 0
+        },
+        "recurringDays": [{
+            "monthNumber": 0,
+            "dayNumber": 1,
+            "yearNumber": 2024
+        }],
+        "category": 0,
+        "subcategory": 2
+    },
+    {
+        "name": "event",
+        "startTime": {
+            "hour": 12,
+            "minute": 0
+        },
+        "id": 1,
+        "endTime": {
+            "hour": 13,
+            "minute": 0
+        },
+        "recurringDays": [{
+            "monthNumber": 0,
+            "dayNumber": 1,
+            "yearNumber": 2024
+        }],
+        "category": null,
+        "subcategory": null
+    }]
+}
